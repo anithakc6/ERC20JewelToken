@@ -6,7 +6,8 @@ This project showcases a crowd sale application with buying of cryptocurrency na
 #### What we are providing?
 ---
 
-- A smart contract for creating a token compliant to ERC20 standards and a crowd sale DApp to purchase by the investors.
+- A smart contract for creating a token compliant to ERC20 standards
+- A crowd sale DApp to purchase tokens by the investors.
 
 #### Included Components
 ---
@@ -30,8 +31,8 @@ This project showcases a crowd sale application with buying of cryptocurrency na
 **Setting up Ethereum Smart Contract:**
 
 ```
-git clone https://github.com/anithakc6/RetailSupplyChainEthereum.git
-cd RetailSupplyChainEthereum/
+git clone https://github.com/anithakc6/ERC20JewelToken.git
+cd ERC20JewelToken/
 ```
 Go to your project folder in terminal then execute :
 

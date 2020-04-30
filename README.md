@@ -48,24 +48,23 @@ Connect Metamask to Ganache URL http://localhost:7545
 
 #### Approval of Spender Allowed Tokens
 ---
-![](img/Owner-Approval.jpg)
-
 - Approval -> Approve the allowed limit of tokens of the spender.
 - Metamask account - Checkout for the metamask account details below.
 
+![](img/Owner-Approval.jpg)
+
 #### Crowd Sale to purchase tokens
 ---
-![](img/Spender-Buy.jpg)
-
 - Spender spends ethers to purchase Jewel tokens. Here 0.001 ether = 1 Jewel Token.
 - Metamask account - Checkout for the metamask account details below.
 
+![](img/Spender-Buy.jpg)
+
 #### Transaction balance sheet
 ---
-![](img/Spender-Transactions.jpg)
-
 - A table with details of tokens sold, tokens remiaings, transaction details etc are displayed
 
+![](img/Spender-Transactions.jpg)
 
 #### Metamask Account Details
 ---

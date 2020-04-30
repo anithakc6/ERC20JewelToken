@@ -1,0 +1,97 @@
+<html>
+
+<head>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+
+    <script src="js/web3.min.js"></script>
+    <script src="js/truffle-contract.js"></script>
+    <script src="js/app.js"></script>
+    
+    <!-- Bootstrap -->
+
+	<style>
+	body{
+		background: url('Jewel.jpg');
+		background-size: 100% 100%;
+	}
+	.center-div{
+		text-align: left;
+	}
+	table, th, td {
+		border: 0.1px solid black;
+	}
+	button {
+	  width: 200px;
+	  height: 50px;
+	  border-radius: 12px;
+	  color: black;
+	  background-color: #F5CF7F;
+	}
+	</style>
+	
+</head>
+<body>
+<h1 style="text-align: center;">&nbsp;</h1>
+<h1 style="text-align: center;">&nbsp;</h1>
+<h1 style="text-align: center;"><span style="color: #f5160b;"><img src="JewelToken.jpg" alt="" /></span></h1>
+<table style="width: 14px; height: 67px; margin-left: auto; margin-right: auto;">
+<tbody>
+<tr>
+<td style="width: 90.4px;" colspan="2">
+<h1 style="text-align: center;">
+<p id="accountAddress" style="text-align: center; color: #A0522D;">&nbsp;</p>
+</h1>
+</td>
+</tr>
+<tr>
+<td style="width: 90.4px;">
+<h1 style="text-align: center;"><span style="color: #b37f10;">Owner</span></h1>
+</td>
+<td style="width: 90.4px;">
+<h1 style="text-align: center;"><span style="color: #b37f10;">Spender</span></h1>
+</td>
+</tr>
+<tr>
+<td style="width: 90.4px;">
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;"><span style="font-size: 16px;"><img src="Seller.jpg" alt="" /></span></p>
+<p style="text-align: center;"><label for="allowedTokenValue"></label> <input id="allowedTokenValue" name="allowedTokenValue" type="text" /></p>
+<p style="text-align: center;"><span style="font-size: 16px;"><button class="btn btn-default btn-ApproveJewelToken" title="Click to Buy Tokens" type="button" data-id="0">Approve Spender Tokens</button></span></p>
+</td>
+<td style="width: 160.8px;">
+<h1 style="text-align: center;"><img src="Buyer.jpg" alt="" /></h1>
+<p style="text-align: center;"><label for="tokenValue"></label> <input id="tokenValue" name="tokenValue" type="text" /></p>
+<p style="text-align: center;"><span style="font-size: 16px;"><button class="btn btn-default btn-JewelToken" title="Click to Buy Tokens" type="button" data-id="0"> Buy Tokens</button></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<table id="posts" style="height: 67px; float: center;" width="562" align="center">
+<tbody>
+<tr>
+<th id="test" style="width: 93.6px; text-align: center;"><span style="color: #b37f10;">Spender Account</span></th>
+<th style="width: 56.8px; text-align: center;"><span style="color: #b37f10;">Tx date</span></th>
+<th style="width: 100px; text-align: center;"><span style="color: #b37f10;">Spender Token Balance</span></th>
+<th style="width: 90.4px; text-align: center;"><span style="color: #b37f10;">Owner Token Balance</span></th>
+<th style="width: 76.8px; text-align: center;">
+<p><span style="color: #b37f10;">Tx Hash</span></p>
+</th>
+<th style="width: 107.2px; text-align: center;"><span style="color: #b37f10;">Description</span></th>
+</tr>
+<tr>
+<td id="productID" style="width: 93.6px;">&nbsp;</td>
+<td id="hash" style="width: 56.8px;">&nbsp;</td>
+<td id="nonce" style="width: 100px;">&nbsp;</td>
+<td id="from" style="width: 90.4px;">&nbsp;</td>
+<td style="width: 76.8px;">&nbsp;</td>
+<td style="width: 107.2px;">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
